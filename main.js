@@ -70,5 +70,5 @@ function speak()
     var synth = window.speechSynthesis;
     speak_data = to_number + "Apples drawn";
     var utterThis = new SpeechSynthesisUtterance(speak_data);
-     synth.speak(utterThis);
+    synth.speak(utterThis);
 }
